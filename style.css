@@ -134,6 +134,34 @@ ul li strong {
     border-radius: 10px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.25);
 }
+#paiement {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.pricing-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.pricing-buttons button {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.pricing-buttons button:hover {
+    background: #084298;
+}
+
 
 /* FOOTER */
 footer {
